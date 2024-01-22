@@ -1,60 +1,60 @@
 const SocialMedia = () => {
     return (
         <ul className="w-full flex flex-col justify-center items-center text-stone-300 gap-4 font-bold">
-            <a
-                href="https://github.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="w-full"
-            >
-                <li className="bg-[#333333] hover:text-black py-3 w-full rounded-lg text-center hover:bg-[#c5f82a] cursor-pointer">
+            <li className="bg-[#333333] hover:text-black py-3 w-full rounded-lg text-center hover:bg-[#c5f82a] cursor-pointer">
+                <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block"
+                >
                     Github
-                </li>
-            </a>
+                </a>
+            </li>
 
-            <a
-                href="https://www.frontendmentor.io/home"
-                target="_blank"
-                rel="noreferrer"
-                className="w-full"
-            >
-                <li className="bg-[#333333] hover:text-black py-3 w-full rounded-lg text-center hover:bg-[#c5f82a] cursor-pointer">
+            <li className="bg-[#333333] hover:text-black py-3 w-full rounded-lg text-center hover:bg-[#c5f82a] cursor-pointer">
+                <a
+                    href="https://www.frontendmentor.io/home"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block"
+                >
                     Frontend Mentor
-                </li>
-            </a>
+                </a>
+            </li>
 
-            <a
-                href="https://www.linkedin.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="w-full"
-            >
-                <li className="bg-[#333333] hover:text-black py-3 w-full rounded-lg text-center hover:bg-[#c5f82a] cursor-pointer">
+            <li className="bg-[#333333] hover:text-black py-3 w-full rounded-lg text-center hover:bg-[#c5f82a] cursor-pointer">
+                <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block"
+                >
                     LinkedIn
-                </li>
-            </a>
+                </a>
+            </li>
 
-            <a
-                href="https://twitter.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="w-full"
-            >
-                <li className="bg-[#333333] hover:text-black py-3 w-full rounded-lg text-center hover:bg-[#c5f82a] cursor-pointer">
+            <li className="bg-[#333333] hover:text-black py-3 w-full rounded-lg text-center hover:bg-[#c5f82a] cursor-pointer">
+                <a
+                    href="https://twitter.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block"
+                >
                     Twitter
-                </li>
-            </a>
+                </a>
+            </li>
 
-            <a
-                href="https://twitter.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="w-full"
-            >
-                <li className="bg-[#333333] hover:text-black py-3 w-full rounded-lg text-center hover:bg-[#c5f82a] cursor-pointer">
+            <li className="bg-[#333333] hover:text-black py-3 w-full rounded-lg text-center hover:bg-[#c5f82a] cursor-pointer">
+                <a
+                    href="https://twitter.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block"
+                >
                     Instagram
-                </li>
-            </a>
+                </a>
+            </li>
         </ul>
     );
 };
